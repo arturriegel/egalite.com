@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Creato";
+  src: url(../fonts/CreatoDisplay-Regular.otf);
+  src: url(../fonts/CreatoDisplay-Bold.otf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Creato";
+}
+
+/* HEADER */
+.headerContainer {
+  display: flex;
+  width: 100vw;
+  height: 80px;
+  flex-shrink: 0;
+  background-color: #555660;
+  margin-bottom: 40px;
+}
+
+.headerContainer img {
+  width: 64px;
+  height: 64px;
+  margin: 7px 0px 9px 10px;
+}
+
+.headerContainer span {
+  display: flex;
+  overflow: hidden;
+  color: white;
+  margin-left: auto;
+  padding-right: 40px;
+  font-size: 2.2em;
+  flex-direction: row-reverse;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.headerContainer ul {
+  display: none;
+}
+
+/* MAIN */
+/* CAROUSEL */
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.slider {
+  margin: 0 auto;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.slides {
+  width: 400%;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 25%;
+  position: relative;
+  transition: 2s;
+}
+
+.slide img,
+.slide-first img {
+  width: 100vw;
+  height: 100%;
+}
+
+.manual-navigation {
+  position: absolute;
+  width: 100vw;
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.05s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+.manual-btn:hover {
+  background-color: #fff;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -100vw;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -200vw;
+}
+
+/* DEPOIMENTOS */
+.depositionsContainer {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.depositionsContainer h1 {
+    margin-bottom: 10px;
+}
