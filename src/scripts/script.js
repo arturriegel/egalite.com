@@ -6,7 +6,7 @@ document.getElementById('radio1').checked = true
 // Define um intervalo para chamar repetidamente a função "nextImage" a cada 3 segundos.
 setInterval(function() {
     nextImage()
-}, 5000)
+}, 3000)
 
 function nextImage() {
     count++
@@ -20,3 +20,4 @@ function nextImage() {
     // Define o botão de opção (radio) com o ID correspondente a "count" como selecionado.
     document.getElementById('radio' + count).checked = true
 }
+

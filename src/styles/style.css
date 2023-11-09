@@ -24,7 +24,7 @@
 .headerContainer img {
   width: 64px;
   height: 64px;
-  margin: 7px 0px 9px 10px;
+  margin: 10px 0px 9px 10px;
 }
 
 .headerContainer span {
@@ -32,7 +32,7 @@
   overflow: hidden;
   color: white;
   margin-left: auto;
-  padding-right: 40px;
+  padding-right: 35px;
   font-size: 2.2em;
   flex-direction: row-reverse;
   align-content: center;
@@ -61,6 +61,7 @@
 .slides {
   width: 400%;
   display: flex;
+  overflow: hidden;
 }
 
 .slides input {
@@ -74,9 +75,10 @@
 }
 
 .slide img,
-.slide-first img {
+.slide {
   width: 100vw;
   height: 100%;
+  overflow: hidden;
 }
 
 .manual-navigation {
@@ -117,11 +119,121 @@
 
 /* DEPOIMENTOS */
 .depositionsContainer {
-    font-size: 1.5em;
-    text-align: center;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .depositionsContainer h1 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 1.8em;
+}
+
+/* NÍVEIS DE ENSINO */
+.educationLevelsContainer {
+  width: 330px;
+  height: 150px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 40px;
+  background-color: #80808050;
+  font-size: 0.8em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.childishContainer,
+.elementaryContainer,
+.highContainer {
+  display: flex;
+  height: 100%;
+  width: 12%;
+  align-items: center;
+}
+
+.childishContainer {
+  background-color: #ffff00;
+}
+
+.elementaryContainer {
+  background-color: #0000ff;
+}
+
+.highContainer {
+  background-color: #ff0000;
+}
+
+.educationTextContainer {
+  display: flex;
+  width: 64%;
+  height: 100%;
+  align-items: center;
+  overflow: hidden;
+  margin: 5px;
+}
+
+/* EVENTOS */
+.events {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.events h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.eventsContainer {
+  display: flex;
+  width: 370px;
+  height: 180px;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: auto;
+  border-radius: 25px;
+  background-color: #80808050;
+}
+
+.eventContent {
+  height: 80%;
+  width: 25%;
+  border-radius: 20px;
+  background-color: #0087e8;
+}
+
+.eventContent a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 100%;
+  width: 100%;
+}
+
+/* FOOTER */
+.sloganContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100px;
+  color: #fff;
+  font-size: 0.9em;
+  background-color: #555660;
+}
+
+.infos, .credits {
+  background-color: #555660;
+  border-top: 2px solid white;
+  color: white;
+  font-size: .75em;
+  font-weight: normal;
+}
+
+.infos p, .credits p {
+  padding: 1px;
+}
+
+.infos a {
+  color: white;
 }
