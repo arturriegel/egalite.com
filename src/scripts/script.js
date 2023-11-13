@@ -23,11 +23,19 @@ function nextImage() {
 
 function expandirEns(container) {
     container.classList.toggle('expanded')
-    
+
     var todosContainers = document.querySelectorAll('.contracted')
     todosContainers.forEach(function(cont) {
         if (cont !== container) {
             cont.classList.remove('expanded')
         }
     })
+
+    let childish = document.querySelector('div.childishContainer')
+    let elementary = document.querySelector('div.elementaryContainer')
+    let high = document.querySelector('div.highContainer')
+    
+    if(childish.classList == 'expanded') {
+        childish.innerHTML = '<p>Educação Infantil</p>'
+    }
 }

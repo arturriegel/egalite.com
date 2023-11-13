@@ -148,7 +148,7 @@
 .highContainer {
   display: flex;
   height: 100%;
-  width: 12%;
+  width: 15%;
   align-items: center;
 }
 
@@ -175,7 +175,11 @@
 
 .expanded {
   width: 50%;
-  transition: width 0.3s ease-in-out;
+  transition: width .5s ease-in-out;
+}
+
+.contracted {
+  transition: width .5s ease-in-out;
 }
 
 /* EVENTOS */
