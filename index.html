@@ -45,7 +45,11 @@
               <img src="src/images/carrosel1.jpeg" alt="teste crrs1" />
             </div>
             <div class="slide">
-              <img src="src/images/carrosel2.jpeg" alt="teste crrs2" style="overflow: hidden;"/>
+              <img
+                src="src/images/carrosel2.jpeg"
+                alt="teste crrs2"
+                style="overflow: hidden"
+              />
             </div>
             <div class="slide">
               <img src="src/images/carrosel3.jpeg" alt="teste crrs3" />
@@ -71,18 +75,13 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-        >Seu navegador não é compatível com este tipo de aplicação.</iframe>
+          >Seu navegador não é compatível com este tipo de aplicação.</iframe
+        >
       </section>
       <section class="educationLevelsContainer">
-        <div class="childishContainer">
-          <p></p>
-        </div>
-        <div class="elementaryContainer">
-          <p></p>
-        </div>
-        <div class="highContainer">
-          <p></p>
-        </div>
+        <div class="contracted childishContainer" onclick="expandirEns(this)"></div>
+        <div class="contracted elementaryContainer" onclick="expandirEns(this)"></div>
+        <div class="contracted highContainer" onclick="expandirEns(this)"></div>
         <div class="educationTextContainer">
           <p>Clique nas cores para abrir os níveis de ensino.</p>
         </div>
@@ -90,9 +89,30 @@
       <section class="events">
         <h1>EVENTOS</h1>
         <div class="eventsContainer">
-          <div class="eventContent"><a href="https://arturriegel.github.io/projeto-cordel" target="_blank" rel="external">Evento 1</a></div>
-          <div class="eventContent"><a href="https://arturriegel.github.io/projeto-android/" target="_blank" rel="external">Evento 2</a></div>
-          <div class="eventContent"><a href="https://arturriegel.github.io/" target="_blank" rel="external">Evento 3</a></div>
+          <div class="eventContent">
+            <a
+              href="https://arturriegel.github.io/projeto-cordel"
+              target="_blank"
+              rel="external"
+              >Evento 1</a
+            >
+          </div>
+          <div class="eventContent">
+            <a
+              href="https://arturriegel.github.io/projeto-android/"
+              target="_blank"
+              rel="external"
+              >Evento 2</a
+            >
+          </div>
+          <div class="eventContent">
+            <a
+              href="https://arturriegel.github.io/"
+              target="_blank"
+              rel="external"
+              >Evento 3</a
+            >
+          </div>
         </div>
       </section>
     </main>
@@ -101,12 +121,23 @@
         <h1>ESCOLHA SEU FUTURO</h1>
       </div>
       <div class="infos">
-        <p>Endereço: <a href="https://maps.app.goo.gl/DbJCDMn2axWahX3B7" target="_blank" rel="external">Av. Carlos Augusto Evangelista Py, n° 2060 Barra do Ribeiro / RS</a></p>
+        <p>
+          Endereço:
+          <a
+            href="https://maps.app.goo.gl/DbJCDMn2axWahX3B7"
+            target="_blank"
+            rel="external"
+            >Av. Carlos Augusto Evangelista Py, n° 2060 Barra do Ribeiro / RS</a
+          >
+        </p>
         <p>Email: contato@colegioegalite.com.br</p>
         <p>Telefones: (51)3482.1214 | (51) 99740.0514</p>
       </div>
       <div class="credits">
-        <p>© Copyright 2023 Égalité Educação Integrada | Todos direitos reservados.</p>
+        <p>
+          © Copyright 2023 Égalité Educação Integrada | Todos direitos
+          reservados.
+        </p>
       </div>
     </footer>
     <script src="src/scripts/script.js"></script>

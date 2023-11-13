@@ -171,6 +171,11 @@
   margin: 5px;
 }
 
+.expanded {
+  width: 50%;
+  transition: width 0.3s ease-in-out;
+}
+
 /* EVENTOS */
 .events {
   text-align: center;

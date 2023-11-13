@@ -21,3 +21,13 @@ function nextImage() {
     document.getElementById('radio' + count).checked = true
 }
 
+function expandirEns(container) {
+    container.classList.toggle('expanded')
+    
+    var todosContainers = document.querySelectorAll('.contracted')
+    todosContainers.forEach(function(cont) {
+        if (cont !== container) {
+            cont.classList.remove('expanded')
+        }
+    })
+}
