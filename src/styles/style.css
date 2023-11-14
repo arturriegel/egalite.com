@@ -20,13 +20,12 @@
   height: 80px;
   flex-shrink: 0;
   background-color: #555660;
-  margin-bottom: 40px;
 }
 
 .headerContainer img {
   width: 64px;
   height: 64px;
-  margin: 10px 0px 9px 10px;
+  margin: 9px 0px 10px 10px;
 }
 
 .headerContainer span {
@@ -42,8 +41,26 @@
   justify-content: flex-start;
 }
 
-.headerContainer ul {
+nav ul {
   display: none;
+  position: absolute;
+  z-index: 9999;
+  right: 0;
+  width: 100vw;
+  background-color: #555660;
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+
+nav > ul li {
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid white;
+}
+
+nav > ul > li a {
+  text-decoration: none;
+  color: white;
 }
 
 /* MAIN */
@@ -107,15 +124,15 @@
   background-color: #fff;
 }
 
-#radio1:checked~.first {
+#radio1:checked ~ .first {
   margin-left: 0;
 }
 
-#radio2:checked~.first {
+#radio2:checked ~ .first {
   margin-left: -100vw;
 }
 
-#radio3:checked~.first {
+#radio3:checked ~ .first {
   margin-left: -200vw;
 }
 
@@ -148,8 +165,16 @@
 .highContainer {
   display: flex;
   height: 100%;
-  width: 15%;
+  width: 12.5%;
   align-items: center;
+}
+
+.childishContainer p,
+.elementaryContainer p,
+.highContainer p,
+.educationTextContainer p {
+  text-align: center;
+  width: 100%;
 }
 
 .childishContainer {
@@ -166,20 +191,19 @@
 
 .educationTextContainer {
   display: flex;
-  width: 64%;
+  width: 62.5%;
   height: 100%;
   align-items: center;
-  overflow: hidden;
-  margin: 5px;
 }
 
 .expanded {
-  width: 50%;
-  transition: width .5s ease-in-out;
+  width: 35%;
+  transition: width 0.5s ease-in-out;
+  text-align: center;
 }
 
 .contracted {
-  transition: width .5s ease-in-out;
+  transition: width 0.5s ease-in-out;
 }
 
 /* EVENTOS */
@@ -222,19 +246,9 @@
 }
 
 /* FOOTER */
-.sloganContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 70px;
-  color: #fff;
-  font-size: 0.9em;
-  background-color: #555660;
-}
-
-.infos,
-.credits {
+.social,
+.credits,
+.infos {
   display: flex;
   height: 50px;
   gap: 10px;

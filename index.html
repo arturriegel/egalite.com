@@ -20,8 +20,10 @@
     <header>
       <div class="headerContainer">
         <img src="src/images/logominimalista.png" alt="Logo Colégio Égalité" />
-        <span class="material-symbols-outlined">menu</span>
-        <ul>
+        <span class="material-symbols-outlined menuBtn" onclick="menu()">menu</span>
+      </div>
+      <nav>
+        <ul class="menuList">
           <li><a href="#">Institucional</a></li>
           <li><a href="#">Pedagógico</a></li>
           <li><a href="#">Materiais</a></li>
@@ -29,7 +31,7 @@
           <li><a href="#">Égalité News</a></li>
           <li><a href="#">ÉgaliCast</a></li>
         </ul>
-      </div>
+      </nav>
     </header>
     <main>
       <section class="carouselContainer">
@@ -80,14 +82,8 @@
         >
       </section>
       <section class="educationLevelsContainer">
-        <div
-          class="contracted childishContainer"
-          onclick="expandirEns(this)"
-        ></div>
-        <div
-          class="contracted elementaryContainer"
-          onclick="expandirEns(this)"
-        ></div>
+        <div class="contracted childishContainer" onclick="expandirEns(this)"></div>
+        <div class="contracted elementaryContainer" onclick="expandirEns(this)"></div>
         <div class="contracted highContainer" onclick="expandirEns(this)"></div>
         <div class="educationTextContainer">
           <p>Clique nas cores para abrir os níveis de ensino.</p>
@@ -124,15 +120,41 @@
       </section>
     </main>
     <footer>
-      <div class="sloganContainer">
-        <h1>ESCOLHA SEU FUTURO</h1>
-      </div>
-      <div class="infos">
-        <p><a href="https://maps.app.goo.gl/DbJCDMn2axWahX3B7" target="_blank" rel="external">Av. Carlos Augusto
-            Evangelista Py, n° 2060 <br> Barra do Ribeiro / RS</a></p>
-        <p>(51)3482.1214 <br> (51) 99740.0514</p>
-        <p><a href="https://www.instagram.com/colegio_egalite/" target="_blank" rel="external"><img src="src/images/instagram.png" alt="Instagram Ico"></a></p>
-        <p><a href="https://www.facebook.com/egalitebarradoribeiro/" target="_blank" rel="external"><img src="src/images/facebook.png" alt="facebook Ico"></a></p>
+      <div>
+        <div class="infos">
+          <p>
+            <a
+              href="https://maps.app.goo.gl/DbJCDMn2axWahX3B7"
+              target="_blank"
+              rel="external"
+              >Av. Carlos Augusto Evangelista Py, n° 2060 <br />
+              Barra do Ribeiro / RS</a
+            >
+          </p>
+          <p>
+            (51)3482.1214 <br />
+            (51) 99740.0514
+          </p>
+        </div>
+        <div class="social">
+        
+          <p>
+            <a
+              href="https://www.instagram.com/colegio_egalite/"
+              target="_blank"
+              rel="external"
+              ><img src="src/images/instagram.png" alt="Instagram Ico"
+            /></a>
+          </p>
+          <p>
+            <a
+              href="https://www.facebook.com/egalitebarradoribeiro/"
+              target="_blank"
+              rel="external"
+              ><img src="src/images/facebook.png" alt="facebook Ico"
+            /></a>
+          </p>
+        </div>
       </div>
       <div class="credits">
         <p>
