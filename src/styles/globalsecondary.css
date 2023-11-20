@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* HEADER */
+header {
+    margin-bottom: 40px;
+}
+
+header a {
+    overflow-y: hidden;
+}
+
+/* MAIN */
+section {
+    text-align: center;
+}
+
+section h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+section p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    width: 85vw;
+    margin: 0px auto 40px auto;
+}
