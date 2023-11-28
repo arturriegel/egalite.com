@@ -38,9 +38,8 @@
 }
 
 .headerContainer img {
-  width: 64px;
-  height: 64px;
-  margin: 9px 0px 10px 10px;
+  height: 50%;
+  margin: auto 0px auto 10px;
 }
 
 .headerContainer span {
@@ -67,9 +66,12 @@ nav ul {
   margin-bottom: 20px;
 }
 
-nav > ul a { text-decoration: none; }
+nav > ul a {
+  text-decoration: none;
+}
 
-nav > ul li, nav > ul > li a {
+nav > ul li,
+nav > ul > li a {
   text-align: center;
   padding: 15px;
   border-top: 1px solid white;
@@ -259,17 +261,50 @@ nav > ul li, nav > ul > li a {
   width: 100%;
 }
 
+/* INSTAGRAM */
+.instaContainer {
+  text-align: center;
+  width: 370px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.instaContainer h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.postContainer {
+  display: grid;
+  background-color: #80808050;
+  border-radius: 20px;
+  grid-template-columns: repeat(2, 2fr);
+  height: 370px;
+  gap: 10px;
+}
+
+.postContent {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  border-radius: 20px;
+}
+
+.postContent img {
+  width: 100%;
+}
+
 /* FOOTER */
 .social,
 .credits,
 .infos {
   display: flex;
-  height: 50px;
+  height: 45px;
   gap: 10px;
+  margin: -1px 0;
   justify-content: center;
   align-items: center;
   background-color: #555660;
-  border-top: 2px solid white;
   color: white;
   font-size: 9.6px;
   font-weight: normal;
@@ -280,6 +315,6 @@ nav > ul li, nav > ul > li a {
   padding: 5px;
 }
 
-.infos a {
+.infos a, .credits a {
   color: white;
 }

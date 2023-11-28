@@ -2,11 +2,18 @@
 
 /* GERAL */
 header {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
-header a {
+.headerContainer > a {
     overflow-y: hidden;
+    margin: auto 0px auto 10px;
+    height: 50%;
+}
+
+.headerContainer img {
+    margin: 0;
+    height: 100%;
 }
 
 /* MAIN */
