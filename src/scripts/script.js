@@ -67,7 +67,7 @@ function expandirEns(container) {
       textoEnsino.innerText = "TEXTO FUNDAMENTAL lorem ipsum dollor sit amet";
     } else if (container.classList.contains("highContainer")) {
       container.innerHTML = "<p>Ensino Médio</p>";
-      textoEnsino.innerText = "TEXTO MÉDIO lorem ipsum dollor sit amet";
+      textoEnsino.innerText = "No Ensino Médio, visamos o bem-estar mental e físico dos alunos, também contamos com uma estrutura inclusiva, adaptada para pessoas com deficiência, além de uma metodologia construtivista.";
     }
   } else if (!container.classList.contains("expanded")) {
     // Remove o conteúdo se o container for contraído e redefine o texto padrão

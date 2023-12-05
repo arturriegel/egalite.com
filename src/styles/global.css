@@ -183,14 +183,15 @@ nav > ul > li a {
   height: 100%;
   width: 12.5%;
   align-items: center;
+  justify-content: center;
 }
 
 .childishContainer p,
 .elementaryContainer p,
 .highContainer p,
 .educationTextContainer p {
-  text-align: center;
-  width: 100%;
+  width: 95%;
+  margin: auto;
 }
 
 .childishContainer {
@@ -295,6 +296,10 @@ nav > ul > li a {
 }
 
 /* FOOTER */
+footer {
+  overflow-y: hidden;
+}
+
 .social,
 .credits,
 .infos {
