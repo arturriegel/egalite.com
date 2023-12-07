@@ -5,7 +5,7 @@ header {
     margin-bottom: 20px;
 }
 
-.headerContainer > a {
+.headerContainer>a {
     overflow-y: hidden;
     margin: auto 0px auto 10px;
     height: 50%;
@@ -14,6 +14,13 @@ header {
 .headerContainer img {
     margin: 0;
     height: 100%;
+}
+
+.noContentText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 318px);
 }
 
 /* MAIN */
@@ -43,7 +50,9 @@ section p {
     margin: 0px 0px 20px 10px;
 }
 
-.returnHome span { overflow-y: hidden; }
+.returnHome span {
+    overflow-y: hidden;
+}
 
 /* FIM DO GERAL */
 
@@ -88,12 +97,7 @@ section p {
     background-color: rgb(200, 0, 0);
 }
 
-/* FIM DOS MATERIAIS */
-.noContentText {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: calc(100vh - 318px);
+/* FOOTER */
+footer {
+    margin-top: 100%;
 }
-
-/* FIM EGALITE NEWS E EGALICAST */

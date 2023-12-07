@@ -1,208 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="src/images/favicon.ico"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="src/styles/global.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-    <title>ÉGALITÉ | Educação Integrada</title>
-  </head>
 
-  <body>
-    <header>
-      <div class="headerContainer">
-        <img src="src/images/logoprincipal.png" alt="Logo Colégio Égalité" />
-        <span class="material-symbols-outlined menuBtn" onclick="menu()"
-          >menu</span
-        >
-      </div>
-      <nav>
-        <ul class="menuList">
-          <a href="src/institucional.html"><li>Institucional</li></a>
-          <a href="src/pedagogico.html"><li>Pedagógico</li></a>
-          <a href="src/materiais.html"><li>Materiais</li></a>
-          <a href="src/galeria.html"><li>Galeria</li></a>
-          <a href="src/egalitenews.html"><li>Égalité News</li></a>
-          <a href="src/egalicast.html"><li>ÉgaliCast</li></a>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="carouselContainer">
-        <div class="slider">
-          <div class="slides">
-            <!--Radio Buttons-->
-            <input type="radio" name="radio" id="radio1" />
-            <input type="radio" name="radio" id="radio2" />
-            <input type="radio" name="radio" id="radio3" />
-            <!--Fim Radio Buttons-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="src/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="src/styles/global.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <title>ÉGALITÉ | Educação Integrada</title>
+</head>
 
-            <!--Slides-->
-            <div class="slide first">
-              <img src="src/images/carrosel1.jpeg" alt="teste crrs1" />
-            </div>
-            <div class="slide">
-              <img
-                src="src/images/carrosel2.jpeg"
-                alt="teste crrs2"
-                style="overflow: hidden"
-              />
-            </div>
-            <div class="slide">
-              <img src="src/images/carrosel3.jpeg" alt="teste crrs3" />
-            </div>
+<body>
+  <header>
+    <div class="headerContainer">
+      <img src="src/images/logoprincipal.png" alt="Logo Colégio Égalité" />
+      <span class="material-symbols-outlined menuBtn" onclick="menu()">menu</span>
+    </div>
+    <nav>
+      <ul class="menuList">
+        <a href="src/institucional.html">
+          <li>Institucional</li>
+        </a>
+        <a href="src/pedagogico.html">
+          <li>Pedagógico</li>
+        </a>
+        <a href="src/materiais.html">
+          <li>Materiais</li>
+        </a>
+        <a href="src/egalitenews.html">
+          <li>Égalité News</li>
+        </a>
+        <a href="src/egalicast.html">
+          <li>ÉgaliCast</li>
+        </a>
+        <a href="src/galeria.html">
+          <li>Galeria</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="carouselContainer">
+      <div class="slider">
+        <div class="slides">
+          <!--Radio Buttons-->
+          <input type="radio" name="radio" id="radio1" />
+          <input type="radio" name="radio" id="radio2" />
+          <input type="radio" name="radio" id="radio3" />
+          <!--Fim Radio Buttons-->
+
+          <!--Slides-->
+          <div class="slide first">
+            <img src="src/images/carrosel1.jpeg" alt="teste crrs1" />
           </div>
-        </div>
-      </section>
-      <section class="depositionsContainer">
-        <h1>DEPOIMENTOS</h1>
-        <iframe
-          width="80%"
-          height="186px"
-          src="https://www.youtube.com/embed/54My7HvovrI"
-          title="FTD Sistema de Ensino"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-          >Seu navegador não é compatível com este tipo de aplicação.</iframe
-        >
-      </section>
-      <section class="educationLevelsContainer">
-        <div
-          class="contracted childishContainer"
-          onclick="expandirEns(this)"
-        ></div>
-        <div
-          class="contracted elementaryContainer"
-          onclick="expandirEns(this)"
-        ></div>
-        <div class="contracted highContainer" onclick="expandirEns(this)"></div>
-        <div class="educationTextContainer">
-          <p>Clique nas cores para abrir os níveis de ensino.</p>
-        </div>
-      </section>
-      <section class="events">
-        <h1>EVENTOS</h1>
-        <div class="eventsContainer">
-          <div class="eventContent">
-            <a
-              href="https://arturriegel.github.io/projeto-cordel"
-              target="_blank"
-              rel="external"
-              >Evento 1</a
-            >
+          <div class="slide">
+            <img src="src/images/carrosel2.jpeg" alt="teste crrs2" style="overflow: hidden" />
           </div>
-          <div class="eventContent">
-            <a
-              href="https://arturriegel.github.io/projeto-android/"
-              target="_blank"
-              rel="external"
-              >Evento 2</a
-            >
+          <div class="slide">
+            <img src="src/images/carrosel3.jpeg" alt="teste crrs3" />
           </div>
-          <div class="eventContent">
-            <a
-              href="https://arturriegel.github.io/"
-              target="_blank"
-              rel="external"
-              >Evento 3</a
-            >
-          </div>
-        </div>
-      </section>
-      <section class="instaContainer">
-        <h1>INSTAGRAM</h1>
-        <div class="postContainer">
-          <div class="postContent">
-            <a
-              href="https://www.instagram.com/p/CzMyrA9qtQC/?img_index=1"
-              target="_blank"
-              rel="external"
-              ><img src="src/images/post4.png" alt=""
-            /></a>
-          </div>
-          <div class="postContent">
-            <a
-              href="https://www.instagram.com/p/CzMyrA9qtQC/?img_index=1"
-              target="_blank"
-              rel="external"
-              ><img src="src/images/post3.png" alt=""
-            /></a>
-          </div>
-          <div class="postContent">
-            <a
-              href="https://www.instagram.com/p/C0KPyQWRbWw/"
-              target="_blank"
-              rel="external"
-              ><img src="src/images/post2.png" alt=""
-            /></a>
-          </div>
-          <div class="postContent">
-            <a
-              href="https://www.instagram.com/p/C0EhGlhrc17/?img_index=1"
-              target="_blank"
-              rel="external"
-              ><img src="src/images/post1.png" alt=""
-            /></a>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div>
-        <div class="infos">
-          <p>
-            <a
-              href="https://maps.app.goo.gl/DbJCDMn2axWahX3B7"
-              target="_blank"
-              rel="external"
-              >Av. Carlos Augusto Evangelista Py, n° 2060 <br />
-              Barra do Ribeiro / RS</a
-            >
-          </p>
-          <p>
-            (51)3482.1214 <br />
-            (51) 99740.0514
-          </p>
-        </div>
-        <div class="social">
-          <p>
-            <a
-              href="https://www.instagram.com/colegio_egalite/"
-              target="_blank"
-              rel="external"
-              ><img src="src/images/instagram.png" alt="Instagram Ico"
-            /></a>
-          </p>
-          <p>
-            <a
-              href="https://www.facebook.com/egalitebarradoribeiro/"
-              target="_blank"
-              rel="external"
-              ><img src="src/images/facebook.png" alt="facebook Ico"
-            /></a>
-          </p>
         </div>
       </div>
-      <div class="credits">
+    </section>
+    <section class="depositionsContainer">
+      <h1>DEPOIMENTOS</h1>
+      <iframe width="80%" height="186px" src="https://www.youtube.com/embed/54My7HvovrI" title="FTD Sistema de Ensino"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>Seu navegador não é compatível com este tipo de aplicação.</iframe>
+    </section>
+    <section class="educationLevelsContainer">
+      <div class="contracted childishContainer" onclick="expandirEns(this)"></div>
+      <div class="contracted elementaryContainer" onclick="expandirEns(this)"></div>
+      <div class="contracted highContainer" onclick="expandirEns(this)"></div>
+      <div class="educationTextContainer">
+        <p>Clique nas cores para abrir os níveis de ensino.</p>
+      </div>
+    </section>
+    <section class="events">
+      <h1>EVENTOS</h1>
+      <div class="eventsContainer">
+        <div class="eventContent">
+          <a href="https://arturriegel.github.io/projeto-cordel" target="_blank" rel="external">Evento 1</a>
+        </div>
+        <div class="eventContent">
+          <a href="https://arturriegel.github.io/projeto-android/" target="_blank" rel="external">Evento 2</a>
+        </div>
+        <div class="eventContent">
+          <a href="https://arturriegel.github.io/" target="_blank" rel="external">Evento 3</a>
+        </div>
+      </div>
+    </section>
+    <section class="instaContainer">
+      <h1>INSTAGRAM</h1>
+      <div class="postContainer">
+        <div class="postContent">
+          <a href="https://www.instagram.com/p/CzMyrA9qtQC/?img_index=1" target="_blank" rel="external"><img
+              src="src/images/post4.png" alt="" /></a>
+        </div>
+        <div class="postContent">
+          <a href="https://www.instagram.com/p/CzMyrA9qtQC/?img_index=1" target="_blank" rel="external"><img
+              src="src/images/post3.png" alt="" /></a>
+        </div>
+        <div class="postContent">
+          <a href="https://www.instagram.com/p/C0KPyQWRbWw/" target="_blank" rel="external"><img
+              src="src/images/post2.png" alt="" /></a>
+        </div>
+        <div class="postContent">
+          <a href="https://www.instagram.com/p/C0EhGlhrc17/?img_index=1" target="_blank" rel="external"><img
+              src="src/images/post1.png" alt="" /></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+      <div class="infos">
         <p>
-          © Copyright 2023 Égalité Educação Integrada | Todos direitos
-          reservados.
+          <a href="https://maps.app.goo.gl/DbJCDMn2axWahX3B7" target="_blank" rel="external">Av. Carlos Augusto
+            Evangelista Py, n° 2060 <br />
+            Barra do Ribeiro / RS</a>
+        </p>
+        <p>
+          (51)3482.1214 <br />
+          (51) 99740.0514
         </p>
       </div>
-      <div class="credits">
-        <p>Desenvolvido por <a href="https://www.linkedin.com/in/arturriegel/" target="_blank" rel="external">Artur Riegel</a></p>
-        <p>Design por <a href="https://www.linkedin.com/in/joão-pedro-schulz-rocha-70835925a/" target="_blank" rel="external">João Pedro S.</a></p>
+      <div class="social">
+        <p>
+          <a href="https://www.instagram.com/colegio_egalite/" target="_blank" rel="external"><img
+              src="src/images/instagram.png" alt="Instagram Ico" /></a>
+        </p>
+        <p>
+          <a href="https://www.facebook.com/egalitebarradoribeiro/" target="_blank" rel="external"><img
+              src="src/images/facebook.png" alt="facebook Ico" /></a>
+        </p>
       </div>
-    </footer>
-    <script src="src/scripts/script.js"></script>
-  </body>
+    <div class="credits">
+      <p>
+        © Copyright 2023 Égalité Educação Integrada | Todos direitos
+        reservados.
+      </p>
+    </div>
+    <div class="credits">
+      <p>Desenvolvido por <a href="https://www.linkedin.com/in/arturriegel/" target="_blank" rel="external">Artur
+          Riegel</a></p>
+      <p>Design por <a href="https://www.linkedin.com/in/joão-pedro-schulz-rocha-70835925a/" target="_blank"
+          rel="external">João Pedro S.</a></p>
+    </div>
+  </footer>
+  <script src="src/scripts/script.js"></script>
+</body>
+
 </html>
