@@ -61,13 +61,13 @@ function expandirEns(container) {
     // Define o conteúdo do container clicado com base na classe e atualiza o texto
     if (container.classList.contains("childishContainer")) {
       container.innerHTML = "<p>Educação Infantil</p>";
-      textoEnsino.innerText = "TEXTO INFANTIL lorem ipsum dollor sit amet";
+      textoEnsino.innerText = "O Colégio Égalité atende crianças de 4 meses a 5 anos na Educação Infantil, buscando autonomia, respeito individual e socialização por meio de vivências lúdicas, fortalecendo laços afetivos e reavaliando emoções e relações.";
     } else if (container.classList.contains("elementaryContainer")) {
       container.innerHTML = "<p>Ensino Fundamental</p>";
-      textoEnsino.innerText = "TEXTO FUNDAMENTAL lorem ipsum dollor sit amet";
+      textoEnsino.innerText = "No Ensino Fundamental I, os alunos valorizam conteúdos disciplinares, adotam atitudes éticas e se integram ao ambiente escolar. Já no Ensino Fundamental II, os jovens são preparados para mudanças físicas e psicológicas, recebendo apoio emocional e focando no desenvolvimento pessoal e acadêmico.";
     } else if (container.classList.contains("highContainer")) {
       container.innerHTML = "<p>Ensino Médio</p>";
-      textoEnsino.innerText = "No Ensino Médio, visamos o bem-estar mental e físico dos alunos, também contamos com uma estrutura inclusiva, adaptada para pessoas com deficiência, além de uma metodologia construtivista.";
+      textoEnsino.innerText = "No Ensino Médio do Colégio Égalité, os alunos são incentivados a se engajar criticamente com o mundo atual, enquanto a equipe docente torna o aprendizado mais atrativo. O foco é desenvolver jovens comunicativos e criativos, respeitando suas individualidades e conscientizando sobre seus papéis na sociedade.";
     }
   } else if (!container.classList.contains("expanded")) {
     // Remove o conteúdo se o container for contraído e redefine o texto padrão
