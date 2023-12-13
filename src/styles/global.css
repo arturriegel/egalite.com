@@ -66,12 +66,12 @@ nav ul {
   margin-bottom: 20px;
 }
 
-nav > ul a {
+nav>ul a {
   text-decoration: none;
 }
 
-nav > ul li,
-nav > ul > li a {
+nav>ul li,
+nav>ul>li a {
   text-align: center;
   padding: 15px;
   border-top: 1px solid white;
@@ -140,15 +140,15 @@ nav > ul > li a {
   background-color: #fff;
 }
 
-#radio1:checked ~ .first {
+#radio1:checked~.first {
   margin-left: 0;
 }
 
-#radio2:checked ~ .first {
+#radio2:checked~.first {
   margin-left: -100vw;
 }
 
-#radio3:checked ~ .first {
+#radio3:checked~.first {
   margin-left: -200vw;
 }
 
@@ -165,7 +165,7 @@ nav > ul > li a {
 }
 
 @media screen and (min-width: 420px) {
-  .depositionsContainer > iframe {
+  .depositionsContainer>iframe {
     height: 270px;
   }
 }
@@ -327,6 +327,7 @@ footer {
   padding: 5px;
 }
 
-.infos a, .credits a {
+.infos a,
+.credits a {
   color: white;
 }

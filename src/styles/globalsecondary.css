@@ -37,9 +37,13 @@ section h1 {
 
 section p {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     width: 85vw;
     margin: 0px auto 40px auto;
+}
+
+.noCustomizedList li>p {
+    margin-bottom: 5px;
 }
 
 .returnHome {
@@ -98,6 +102,10 @@ section p {
 }
 
 /* FOOTER */
-footer {
-    margin-top: 100%;
+.infArea {
+    margin-top: 47.5%;
+}
+
+.fundArea {
+    margin-top: 62%;
 }
