@@ -1,18 +1,17 @@
-@charset "UTF-8";
+@charset "utf-8";
 
 /* GERAL */
 header {
     margin-bottom: 20px;
 }
 
-.headerContainer>a {
-    overflow-y: hidden;
+.headerContainer > a {
     margin: auto 0px auto 10px;
-    height: 50%;
+    overflow-y: hidden;
+    height: 60%;
 }
 
 .headerContainer img {
-    margin: 0;
     height: 100%;
 }
 
