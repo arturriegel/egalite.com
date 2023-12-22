@@ -1,2 +1,33 @@
 @charset "utf-8";
 
+/* CARROSEL */
+.carouselContainer {
+  margin: 50px 0;
+}
+
+.slider {
+  width: 50vw;
+}
+
+.slide img,
+.slide {
+  width: 50vw;
+}
+
+.manual-navigation {
+  width: 50vw;
+}
+#radio2:checked ~ .first {
+  margin-left: -50vw;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -100vw;
+}
+/* FIM CARROSEL */
+
+/* DEPOIMENTOS */
+.depositionsContainer iframe {
+  width: 40vw;
+  height: 380px;
+}

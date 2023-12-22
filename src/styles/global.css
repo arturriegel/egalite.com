@@ -202,6 +202,11 @@ nav>ul>li a {
   font-size: 1.8em;
 }
 
+.depositionsContainer iframe {
+  width: 80%;
+  height: 186px;
+}
+
 @media screen and (min-width: 420px) {
   .depositionsContainer>iframe {
     height: 270px;
