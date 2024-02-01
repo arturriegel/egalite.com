@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.newsContainer{
+    width: 350px;
+    overflow: hidden;
+    margin: 20px auto;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.linkNews {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.capaEdicao1News {
+    width: 350px;
+}
+
+.newsTitle {
+    background-color: gray;
+    padding: 10px;
+}
+
+.newsTitle > p {
+    margin: 0;
+}
+
+footer {
+    margin-top: calc(100% - 181px);
+}
